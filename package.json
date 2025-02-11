@@ -1,16 +1,16 @@
 {
-  "name": "htmx-v2-tags",
-  "description": "Provides HTMX v2 tag completion in HTML files in VSCode. Fork of https://github.com/otovo/htmx-tags",
-  "version": "0.0.8",
-  "publisher": "danicc097",
-  "repository": "https://github.com/danicc097/htmx-tags",
+  "name": "django-htmx-v2-tags",
+  "description": "Provides HTMX v2 tag completion in Django HTML files. Fork of https://github.com/danicc097/htmx-tags",
+  "version": "0.0.2",
+  "publisher": "timthedevguy",
+  "repository": "https://github.com/timthedevguy/django-htmx-tags",
   "engines": {
     "vscode": "^1.63.0"
   },
   "contributes": {
-    "html": {
+    "django-html": {
       "customData": [
-        "./html.htmx-data.json"
+        "./django-html.htmx-data.json"
       ]
     }
   }
